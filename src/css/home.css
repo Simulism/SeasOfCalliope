@@ -1,0 +1,85 @@
+/* 
+CSS by Alex Cassell
+http://alexcassell.com
+*/
+
+@font-face {
+    font-family: Adventuring;
+    src: url(../fonts/Adventuring.ttf);
+}
+
+a{
+    text-decoration: none;
+}
+
+.home__container{
+    position: absolute;
+    font-family: Adventuring;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/backgrounds/fort1.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.home__title{
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+}
+
+.topNavigation{
+    font-family: Adventuring;
+    z-index: 15;
+}
+
+.home__menuContainer{
+    position: absolute;
+    top: 15vh;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home__merchant{
+    width: 25%;
+    height: 85vh;
+    max-width: 450px;
+    max-height: 1000px;
+    background-image: url("../images/characters/merchant1.png");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.home__menuWrapper{
+    height: 85vh;
+    width: 30%;
+    max-height: 790px;
+    max-width: 660px;
+    background-image: url("../images/ui/storeBackground.png");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+    /* border: red solid 2px; */
+}
+
+.home__menu{
+    position: relative;
+    top: 25%;
+    width: 60%;
+    height: 55%;
+    left: 20%;
+    border: red solid 2px;
+}
